@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class CharArrayReaderTest {
     public static void main(String args[]) {
-        char[] chars = "土家族民族自治区".toCharArray();
+        char[] chars = "土家族民族自治区1ww".toCharArray();
         CharArrayReader charArrayReader = new CharArrayReader(chars);
         try {
             int read = 0;

@@ -13,7 +13,7 @@ public class InputStreamReaderDemo {
 
 //        // 网络编程
 //        ServerSocket serverSocket = null;
-//        try {
+//        try {1
 //            serverSocket = new ServerSocket(10086);
 //            Socket socket = serverSocket.accept();
 //            socket.getOutputStream(); // 没有getWriter()
