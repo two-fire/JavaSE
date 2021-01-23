@@ -1,7 +1,12 @@
 package ticket;
 
+/**
+ * 使用接口的方式，每次只创建了一个共享对象，所有的线程能够实现资源共享
+ *      1. 数据不一致的问题
+ *          解决方法：线程同步（加锁）
+ */
 public class TicketRunnable implements Runnable{
-    private static int ticket = 5; // 一共5张票
+    private int ticket = 5; // 一共5张票
     @Override
     public void run() {
         for (int i = 0; i < 100; i++) {
