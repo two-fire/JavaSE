@@ -39,7 +39,8 @@ package demo;
  *      解决方法：
  *          1. 同步代码块
  *              Synchronized(共享资源，共享对象，需要是object的子类) {具体执行的代码}
- *          2.
+ *          2. 同步方法
+ *              将核心代码逻辑定义成一个方法，使用synchronized关键字
  */
 public class ThreadDemo extends Thread{
     @Override
