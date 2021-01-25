@@ -1,6 +1,5 @@
 package pc4;
 
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
 
 public class ConsumerQueue implements Runnable{
