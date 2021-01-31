@@ -19,7 +19,7 @@ public class LoginClient2 {
             objectOutputStream.writeObject(user);
             // 调用shutdown方法告诉对方传输完毕
             client.shutdownOutput();
-            //---------接受响应--------
+            //---------接收响应--------
             DataInputStream dataInputStream = new DataInputStream(client.getInputStream());
             String str = dataInputStream.readUTF();
             System.out.println(str);
