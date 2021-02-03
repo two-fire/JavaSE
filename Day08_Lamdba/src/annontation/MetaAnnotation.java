@@ -2,6 +2,11 @@ package annontation;
 
 import java.lang.annotation.*;
 
+/**
+ * Created by IntelliJ IDEA.
+ * @author: LiuYan
+ * @Created: 2021/2/2 11:57
+ */
 public class MetaAnnotation {
     @MyAnnotation(age = 12,id = 3,likes = {"book","lol","movie"})
     public void test(){};
